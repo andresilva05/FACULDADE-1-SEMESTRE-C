@@ -8,4 +8,4 @@ Este repositório contém exercícios, projetos e atividades desenvolvidas na li
 - Compiladores como GCC ou DevC++
 
 ## 👨‍💻 Autor
-André Silva – [LinkedIn]((https://www.linkedin.com/in/wilson-andr%C3%A9-de-melo-silva-9b9b39235/) | [Portfólio]((https://portfolioodevwilson.netlify.app/))
+André Silva – [LinkedIn]((https://www.linkedin.com/in/wilson-andr%C3%A9-de-melo-silva-9b9b39235/) | ([Portfólio]((https://portfolioodevwilson.netlify.app/))
