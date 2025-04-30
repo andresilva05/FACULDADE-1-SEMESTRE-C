@@ -8,4 +8,5 @@ Este repositório contém exercícios, projetos e atividades desenvolvidas na li
 
 ## 👨‍💻 Autor
 **André Silva**  
-[LinkedIn](https://www.linkedin.com/in/wilson-andr%C3%A9-de-melo-silva-9b9b39235/) • [Portfólio](https://portfolioodevwilson.netlify.app/)
+<a href="https://www.linkedin.com/in/wilson-andr%C3%A9-de-melo-silva-9b9b39235/" target="_blank">LinkedIn</a> •  
+<a href="https://portfolioodevwilson.netlify.app/" target="_blank">Portfólio</a>
