@@ -1,6 +1,8 @@
 // 3. Biblioteca de Funções Matemáticas: Crie uma biblioteca "matematica_avancada" com funções
 // para calcular a potência de um número, encontrar o fatorial de um número e verificar se um número
 // é primo.
+
+
 #include <stdio.h>
 
 #include "matematica_avancada.c" // Inclui a biblioteca de funções matemáticas
