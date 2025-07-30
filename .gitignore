@@ -1,0 +1,14 @@
+# Ignorar arquivos compilados
+*.exe
+*.out
+*.o
+
+# Ignorar pastas de saída
+/output/
+
+# Ignorar configurações locais do VS Code
+.vscode/
+
+# Ignorar arquivos temporários
+*.zip
+*.pdf

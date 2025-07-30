@@ -1,0 +1,62 @@
+📅 Dia 1 – Planejamento e Estrutura
+✅ 1. Planejar as opções do menu principal
+Escreva numa folha ou bloco de notas as 7 opções do sistema.
+
+Pense na ordem lógica que o usuário usaria:
+
+Incluir livro
+
+Excluir livro
+
+Listar livros
+
+Atualizar estoque
+
+Buscar livro
+
+Calcular valor total
+
+Relatório de poucos exemplares
+
+Sair
+
+✅ 2. Montar a estrutura dos dados
+Estruture como os livros serão representados na memória:
+
+Cada livro tem: ID, título, autor, quantidade, preço, ativo/inativo.
+
+Crie um vetor para armazenar todos os livros.
+
+Crie uma variável para controlar quantos livros foram cadastrados (tipo um "índice").
+
+✅ 3. Planejar a função incluirLivro()
+Essa função será usada para cadastrar um novo livro. Para isso, ela deve:
+
+Pedir os dados do novo livro:
+
+Título
+
+Autor
+
+Quantidade
+
+Preço
+
+Verificar se já existe um livro com o mesmo título e autor
+
+Se existir, exibir uma mensagem de erro.
+
+Gerar um ID único automaticamente
+
+Pode ser com base no índice atual.
+
+Armazenar o novo livro no vetor
+
+Preencher todos os campos da estrutura.
+
+Marcar como ativo.
+
+Incrementar o contador de livros cadastrados
+
+Para que o próximo livro fique na próxima posição do vetor.
+

@@ -1,0 +1,76 @@
+1. Cadastrar Produto
+Teste 1: Tente cadastrar um produto com nome vazio ou só espaços → deve mostrar erro de nome inválido.
+
+Teste 2: Cadastre um produto normalmente (ex: Nome = "Caneta", Qtd = 10, Preço = 1.50).
+
+Teste 3: Tente cadastrar outro produto com mesmo nome → deve mostrar erro de nome duplicado.
+
+Teste 4: Tente cadastrar um produto com quantidade negativa ou preço negativo → deve mostrar erro de valor inválido.
+
+2. Listar Produtos
+Teste 1: Liste os produtos após os cadastros para garantir que estão aparecendo corretamente.
+
+Teste 2: Exclua um produto e verifique se aparece como "Produto Deletado".
+
+3. Atualizar Estoque
+Teste 1: Atualize o estoque de um produto válido (ex: adicionar +5 unidades).
+
+Teste 2: Tente atualizar com valor que deixe estoque negativo → deve dar erro.
+
+Teste 3: Tente atualizar produto que não existe → deve dar erro.
+
+4. Cadastrar Cliente
+Teste 1: Cadastre cliente com nome vazio → deve mostrar erro.
+
+Teste 2: Cadastre cliente com CPF inválido (tamanho errado, letras, todos números iguais) → erro.
+
+Teste 3: Cadastre cliente com CPF válido (ex: 12345678909).
+
+Teste 4: Cadastre cliente com CPF já cadastrado → deve mostrar erro.
+
+Teste 5: Teste limite máximo de clientes.
+
+5. Cadastrar Venda
+Teste 1: Tente cadastrar venda sem clientes ou produtos cadastrados → deve impedir.
+
+Teste 2: Cadastre uma venda com data inválida (ex: 31/02/2023) → erro.
+
+Teste 3: Cadastre venda com CPF não cadastrado → erro.
+
+Teste 4: Cadastre venda com produto com estoque zero → deve alertar e impedir.
+
+Teste 5: Cadastre venda com quantidade maior que estoque → erro.
+
+Teste 6: Venda válida com estoque suficiente → estoque deve ser atualizado corretamente.
+
+6. Listar Vendas
+Teste 1: Liste as vendas cadastradas e confira se aparecem cliente, produto, data e quantidade corretamente.
+
+Teste 2: Verifique comportamento caso cliente ou produto não existam mais.
+
+7. Excluir Produto
+Teste 1: Exclua produto que nunca foi vendido → deve marcar como deletado.
+
+Teste 2: Tente excluir produto já vendido → deve impedir.
+
+Teste 3: Tente excluir produto inexistente → deve mostrar erro.
+
+8. Relatório de Estoque Baixo
+Teste 1: Informe um limite e verifique se produtos com estoque <= limite aparecem.
+
+Teste 2: Verifique se produtos com estoque 0 mostram "Sem estoque".
+
+Teste 3: Teste quando não há produtos com estoque baixo → mensagem adequada.
+
+9. Listagem de Clientes
+Teste 1: Verifique se lista CPF, nome e número correto de compras para cada cliente.
+
+Dicas gerais para testar:
+Tente sempre inserir dados errados para ver se o sistema rejeita corretamente.
+
+Teste limites (máximo de clientes, produtos, vendas).
+
+Verifique se mensagens de erro aparecem no momento correto.
+
+Após cada operação, consulte a listagem para confirmar que os dados foram atualizados.
+
